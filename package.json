@@ -27,21 +27,14 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "engines": {
-  "node": ">=14.0.0"
-},
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "engines": {
+    "node": ">=14.0.0"
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
